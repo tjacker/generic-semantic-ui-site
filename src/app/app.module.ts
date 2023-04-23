@@ -11,11 +11,11 @@ import { ViewsModule } from './views/views.module';
 	declarations: [AppComponent],
 	imports: [
 		BrowserModule,
-		AppRoutingModule,
 		CollectionsModule,
 		ElementsModule,
 		SegmentsModule,
 		ViewsModule,
+		AppRoutingModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent],

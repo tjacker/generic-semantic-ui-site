@@ -6,6 +6,6 @@ import { SegmentsSectionComponent } from './segments-section/segments-section.co
 @NgModule({
 	declarations: [SegmentsSectionComponent],
 	imports: [CommonModule, SegmentsRoutingModule],
-	exports: [SegmentsSectionComponent],
+	exports: [],
 })
 export class SegmentsModule {}

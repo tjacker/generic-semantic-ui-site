@@ -6,6 +6,6 @@ import { CollectionsSectionComponent } from './collections-section/collections-s
 @NgModule({
 	declarations: [CollectionsSectionComponent],
 	imports: [CommonModule, CollectionsRoutingModule],
-	exports: [CollectionsSectionComponent],
+	exports: [],
 })
 export class CollectionsModule {}

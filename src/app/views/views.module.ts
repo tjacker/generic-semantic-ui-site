@@ -6,6 +6,6 @@ import { ViewsSectionComponent } from './views-section/views-section.component';
 @NgModule({
 	declarations: [ViewsSectionComponent],
 	imports: [CommonModule, ViewsRoutingModule],
-	exports: [ViewsSectionComponent],
+	exports: [],
 })
 export class ViewsModule {}

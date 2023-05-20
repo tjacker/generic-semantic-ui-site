@@ -7,9 +7,21 @@
 		</section>
 	</div>
 
-	<!-- <div class="row">
+	<div class="row">
 		<section class="column">
-			<app-divider></app-divider>
+			<app-divider>Tabs Menu</app-divider>
+
+			<app-tabs>
+				<a
+					class="item"
+					[routerLink]="['./']"
+					routerLinkActive="active"
+					[routerLinkActiveOptions]="{ exact: true }"
+					>Biography</a
+				>
+				<a class="item" [routerLink]="['./', 'companies']" routerLinkActive="active">Companies</a>
+				<a class="item" [routerLink]="['./', 'partners']" routerLinkActive="active">Partners</a>
+			</app-tabs>
 		</section>
-	</div> -->
+	</div>
 </div>

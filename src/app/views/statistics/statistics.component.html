@@ -1,0 +1,8 @@
+<div class="ui statistics">
+	<div *ngFor="let stat of stats" class="statistic">
+		<div class="value">
+			{{ stat.currency ? (stat.value | currency : 'USD' : 'symbol' : '1.0-2') : stat.value }}
+		</div>
+		<div class="label">{{ stat.label }}</div>
+	</div>
+</div>

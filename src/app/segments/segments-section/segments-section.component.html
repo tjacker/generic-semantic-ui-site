@@ -1,1 +1,20 @@
-<p>segments-section works!</p>
+<div class="ui grid">
+	<div class="row">
+		<section class="column">
+			<app-divider>Modal</app-divider>
+
+			<button class="ui primary button" (click)="onOpen()">Open modal</button>
+			<app-modal [openModal]="openModal" (closeEvent)="onClose()">
+				<span modalHeader>Modal Header</span>
+				<p>Some content for the modal window goes here.</p>
+				<button modalActions class="ui button" (click)="onClose()">Close</button>
+			</app-modal>
+		</section>
+	</div>
+
+	<div class="row">
+		<section class="column">
+			<app-divider>Accordion</app-divider>
+		</section>
+	</div>
+</div>
